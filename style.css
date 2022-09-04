@@ -1,0 +1,173 @@
+.body{
+    display: flex; 
+}
+.me{
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    text-align: left;
+    background: rgb(254,191,1);
+    background: -moz-linear-gradient(45deg,  rgb(254,191,1) 40%, rgb(254,191,1) 40%, rgb(6,2,242) 74%);
+    background: -webkit-linear-gradient(45deg,  rgb(254,191,1) 40%,rgb(254,191,1) 40%,rgb(6,2,242) 74%);
+    background: linear-gradient(45deg,  rgb(254,191,1) 40%,rgb(254,191,1) 40%,rgb(6,2,242) 74%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf01', endColorstr='#0602f2',GradientType=1 );
+}
+.me div p{
+    color:rgb(6,2,242);
+}
+h1{
+    color: rgb(254,191,1);
+}
+.me h2{
+    color: rgb(254,191,1); 
+}
+.me h3{
+    color: rgb(6,2,242);   
+}
+.foto{
+    width: 200px;
+    height: 250px;
+    box-shadow: 1px 1px 15px black;
+}
+div a{
+    color:rgb(6,2,242);
+    text-decoration: none;
+    letter-spacing:1px;
+    font-weight: 500;
+    font-style: italic;
+}
+div a:hover{
+color: black;
+}
+div a:hover:visited{
+    color: black;
+    }
+div a:visited{
+    color:darkmagenta;
+}
+div a:active{
+    color:aqua;
+}
+div a:visited:active{
+    color:aqua;
+}
+.info{
+    border: 1px solid black;
+    width: 990px;
+    height: auto;
+    padding: 10px;
+    text-align: left;
+    background: rgb(254,191,1);
+}
+.prof{
+    list-style: none;
+    padding: 0;
+}
+.prof li::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:rgb(6,2,242);
+    display: inline-block;
+    margin: 0 10px 0 5px;   
+}
+.hobbies {
+    padding:0 0 0 20px ;
+    list-style: none;
+}
+.hobbies li:nth-child(1)::before{
+    content: '1.';
+    color: rgb(6,2,242);
+    margin: 0 10px 0 0;
+}
+.hobbies li:nth-child(2)::before{
+    content: '2.';
+    color: rgb(6,2,242);
+    margin: 0 10px 0 0;
+}
+.hobbies li:nth-child(3)::before{
+    content: '3.';
+    color: rgb(6,2,242);
+    margin: 0 10px 0 0;
+}
+.name{
+    background-color:rgb(6,2,242) ;
+    color: rgb(254,191,1) ;
+}
+.name:focus{
+    box-shadow: 1px 1px 15px 5px black;
+}
+.surname{
+    background-color:rgb(6,2,242) ;
+    color: rgb(254,191,1) ;
+}
+.surname:focus{
+    box-shadow: 1px 1px 15px 5px black;
+}
+.tel{
+    background-color:rgb(6,2,242) ;
+    color: rgb(254,191,1) ;
+}
+.tel:focus{
+    box-shadow: 1px 1px 15px 5px black;
+}
+.emall{
+    background-color:rgb(6,2,242) ;
+    color: rgb(254,191,1) ;
+}
+.emall:focus{
+    box-shadow: 1px 1px 15px 5px black;
+}
+.sex{
+    margin: 0 0 20px 0;
+}
+.about_you{
+    background-color:rgb(6,2,242) ;
+    color: rgb(254,191,1);
+    margin: 10px 0;
+}
+.about_you:focus{
+    box-shadow: 1px 1px 15px 5px black;
+}
+.tabl{
+    border: 1px solid black;
+   
+}
+.tab{
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(6,2,242);
+}
+td{
+    border: 1px solid black;   
+}
+th{
+    text-align: center;
+    width: 200px;
+}
+.submit{
+    background-color:rgb(6,2,242) ;
+    border-radius: 20px;
+    padding: 5px 15px; 
+    color: rgb(254,191,1) ;
+}
+.submit:hover{
+    color: aqua;
+}
+.submit:active{
+    background-color:rgb(254,191,1) ;
+}
+.reset{
+    background-color:rgb(6,2,242) ;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 0 10px 0 0 ;
+    color: rgb(254,191,1) ;
+}
+.reset:hover{
+    color: aqua;
+}
+.reset:active{
+    background-color:rgb(254,191,1) ;
+}
